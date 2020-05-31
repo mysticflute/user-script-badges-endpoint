@@ -1,0 +1,31 @@
+{
+  "name": "user-script-badges-endpoint",
+  "version": "1.0.0",
+  "description": "GreasyFork and OpenUserJS endpoint for https://shields.io/ badges",
+  "author": "Nathan McWilliams",
+  "homepage": "https://github.com/mysticflute/user-script-badges-endpoint#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mysticflute/user-script-badges-endpoint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mysticflute/user-script-badges-endpoint/issues"
+  },
+  "keywords": [
+    "badges",
+    "shieldsio",
+    "userscript",
+    "greasyfork",
+    "openuserjs",
+    "runkit"
+  ],
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "prettier": "^2.0.5"
+  }
+}
