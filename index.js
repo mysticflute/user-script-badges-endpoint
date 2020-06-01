@@ -13,11 +13,11 @@ const app = express(exports);
  *
  * Sample response:
  * {
- *   "version":"0.6",
- *   "updatedDateTime":"2018-11-17T17:50:02+00:00",
- *   "updated":"11/17/2018",
- *   "totalInstalls":"151",
- *   "dailyInstalls":"0"
+ *   "version": "1.0.0",
+ *   "updatedDateTime": "2018-11-17T17:50:02+00:00",
+ *   "updated": "11/17/2018",
+ *   "totalInstalls": "151",
+ *   "dailyInstalls": "0"
  * }
  */
 app.get('/greasyfork/:scriptId', async (req, res) => {
@@ -84,10 +84,10 @@ app.get('/greasyfork/:scriptId', async (req, res) => {
  * Sample response:
  *
  * {
- *   "version":"0.0.6",
- *   "updatedDateTime":"2019-07-21T05:41:58.134Z",
- *   "updated":"07/21/2019",
- *   "totalInstalls":"254168"
+ *   "version": "1.0.0",
+ *   "updatedDateTime": "2019-07-21T05:41:58.134Z",
+ *   "updated": "07/21/2019",
+ *   "totalInstalls": "254168"
  * }
  */
 app.get('/openuserjs/:namespace/:name', async (req, res) => {
