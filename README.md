@@ -11,7 +11,7 @@ This endpoint can be referenced by badge generators like https://shields.io/ for
 
 #### Option A
 
-Simply use my endpoint here:
+Simply use [my endpoint](https://runkit.com/mysticflute/userscripts) here:
 
 **https://runkit.io/mysticflute/userscripts/branches/master**
 
